@@ -3,9 +3,9 @@
 require 'sinatra'
 
 get '/' do
-	erb:index
+	erb :index
 end
 
 get '/hello' do 
-	erb:bola
+	erb :bola
 end

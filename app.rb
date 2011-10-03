@@ -6,6 +6,11 @@ get '/' do
 	erb :index
 end
 
-get '/hello' do 
+get '/bola' do
 	erb :bola
+end
+
+post '/bom-dia' do
+	@nome = params[:nome]
+	erb :bomdia
 end
